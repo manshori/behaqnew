@@ -113,7 +113,7 @@
             android:background="@drawable/border"
             android:ellipsize="start"
             android:gravity="center"
-            android:hint="Bantu kami memverifikasi dengan menyertakan url"
+            android:hint="Verifikasi dengan menyertakan Link URL"
             android:inputType="text"
             android:textSize="14dp" />
 
@@ -126,7 +126,7 @@
                 android:layout_below="@+id/et_inputUrlLaporkan"
                 android:layout_marginTop="18dp"
                 android:background="@drawable/button_round2"
-                android:text="Laporka HOAX !"
+                android:text="Laporkan HOAX !"
                 android:textColor="@color/colorPutih" />
         </RelativeLayout>
     </ScrollView>
