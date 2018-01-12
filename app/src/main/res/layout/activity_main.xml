@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.behaq.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/linearLayout1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_1_title"
+            android:textColor="@color/colorhitam"
+            android:layout_marginBottom="@dimen/slide_title"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baris1"
+            android:textColor="@color/colorhitam"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baris2"
+            android:textColor="@color/colorhitam"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baris3"
+            android:textColor="@color/colorhitam"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorhitam"
+                android:text="@string/baris4"
+                android:layout_marginRight="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/endblue"
+                android:text="@string/baris5"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/colorhitam"
+                android:text="@string/baris6"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorhitam"
+                android:text="@string/baris4"
+                android:layout_marginRight="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/colorMerah"
+                android:text="@string/baris7"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/colorhitam"
+                android:text="@string/baris8"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorhitam"
+            android:text="@string/baris9"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="29dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_analyzeMain"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="59dp"
+            android:background="@drawable/button_round"
+            android:text="@string/baris5"
+            android:textColor="@color/colorPutih" />
+
+        <Button
+            android:id="@+id/btn_laporkanMain"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/btn_analyzeMain"
+            android:background="@drawable/button_round2"
+            android:text="@string/baris7"
+            android:textColor="@color/colorPutih" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
