@@ -32,7 +32,7 @@
     <string name="positive">Artikel / Berita mempunyai sentimen POSITIF(+)</string>
     <string name="positive_content">Sentiment positif menunjukkan bahwa artikel / berita tersebut mempunyai kata-kata berkonotasi positif dan bermakna baik. namun belum tentu sentiment positif tersebut menandakan artikel anda terbebas dari HOAX</string>
     <string name="negative">Artikel / Berita mempunyai sentimen NEGATIVE(-)</string>
-    <string name="negative_content">Sentiment Negative menunjutkkan blablalab</string>
+    <string name="negative_content">Sentiment Negative menunjutkkan bahwa artikel / berita tersebut mempunyai kata berkonotasi kasar, negatif atau tidak layak ditampilkan. sentiment negatif tidak menjamin berita tersebut HOAX, karena terdapat berita fakta namun bersifat provokatif dan SARA. Untuk itu kita harus selalu waspada.</string>
     <string name="neutral">Artikel / Berita mempunyai sentimen NEUTRAL(0)</string>
-    <string name="neutral_content">Sentiment Negative menunjutkkan blablalab</string>
+    <string name="neutral_content">Sentiment Netral menunjukkan bahwa artikel / berita tersebut mempunyai kata kata yang tidak mengacu pada positif atau negatif. Atau bisa jadi artikel / berita tersebut memiliki jumlah kata positif dan negatif yang sama, sehingga menjadi netral. Kita harus selalu waspada.</string>
 </resources>

@@ -54,6 +54,7 @@ public class HasilActivity extends AppCompatActivity {
     int Negative = Color.parseColor("#f57c7c");
     int Neutral = Color.parseColor("#f7fa99");
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
