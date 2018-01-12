@@ -48,7 +48,7 @@ public class HasilActivity extends AppCompatActivity {
     ImageView iv_dataHasil, iv_sentimentHasil;
     SharedPref sharedPref;
 
-    int Hoax = Color.parseColor("#f57c7c");
+    int Hoax = Color.parseColor("#FFFAABAB");
     int Verified = Color.parseColor("#93f9b0");
     int Positive = Color.parseColor("#93f9b0");
     int Negative = Color.parseColor("#f57c7c");
